@@ -16,7 +16,8 @@ export default {
 </template>
 <style>
 .page {
-  max-width: 1200px;
+  max-width: 400px;
   margin: auto;
 }
+
 </style>
