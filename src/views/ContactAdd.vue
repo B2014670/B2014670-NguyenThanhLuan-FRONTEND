@@ -21,16 +21,16 @@ export default {
             message: "",
         };
     },
-    // methods: {
-    //     async addContact(data) {
-    //         try {
-    //             await ContactService.create(data);
-    //             this.message = "Liên hệ được thêm thành công.";
-    //         } catch (error) {
-    //             console.log(error);
-    //         }
-    //     },
-    // }
+    methods: {
+        async addContact(data) {
+            try {
+                await ContactService.create(data);
+                this.message = "Liên hệ được thêm thành công.";
+            } catch (error) {
+                console.log(error);
+            }
+        },
+    }
 }
 
 </script>
